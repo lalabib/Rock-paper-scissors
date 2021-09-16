@@ -1,1 +1,2 @@
-## Rock-Paper-Scissors
+# Rock-Paper-Scissors
+### RPS Game
