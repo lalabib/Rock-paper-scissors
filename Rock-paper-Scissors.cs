@@ -17,7 +17,7 @@ class MainClass {
         Console.WriteLine("Selamat Datang di permainan Batu Kertas Gunting");
         Console.WriteLine("Masukkan angka pada bagian input dan pisahkan dengan Enter. Keterangannya di bawah ini:");
         Console.WriteLine(" 0 = batu,\n 1 = kertas,\n 2 = gunting.\n");
-        Console.WriteLine("Selamat bermain\n");
+        Console.WriteLine("Selamat bermain!\n");
         
 		int round = 1;
 		while(round < 6){
@@ -115,13 +115,13 @@ class MainClass {
 		}
 	
 		else if(playerScore == enemyScore){
-			Console.WriteLine("Draw nih");
+			Console.WriteLine("Draw");
 			Console.WriteLine("Hasil akhir Player: " + playerScore + " vs" + " Enemy: " +enemyScore);		
 		}
 		
 		else{
-			Console.WriteLine("Yah, Anda kalah. Coba lagi yaa");
-			Console.WriteLine("Skor akhir Player: " + playerScore + " vs" + " Enemy: " +enemyScore);			
+			Console.WriteLine("Yah, Anda kalah. Coba lagi yaa!");
+			Console.WriteLine("Hasil akhir Player: " + playerScore + " vs" + " Enemy: " +enemyScore);			
 		}
 	}
 }
